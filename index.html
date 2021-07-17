@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MY WEBSITE</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="script.js" defer></script>
+   
+</head>
+
+
+<body>
+    <nav>
+        <div class="topic">Code PlayGround</div>
+        <ul id="dropclick">
+            <div class="topnav">
+             <div class="buton active" id="html">HTML</div>
+             <div class="buton" id="css">CSS</div>
+             <div class="buton" id="js">JavaScript</div>
+             <div class="buton active" id="output">Output</div>
+            </div>
+        </ul>
+    </nav>
+    <div id="code">
+        <textarea id="htmltext" class="text"><p>Hello! </p>
+<p>Edit the code here! </p></textarea>
+        <textarea id="csstext" class="text hide">p { color: black; }</textarea>
+        <textarea id="jstext" class="text hide">//Write some code!!!</textarea>
+        <iframe id="outputtext" class="text"></iframe>
+    </div>
+</body>
+</html>
